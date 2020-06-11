@@ -1,27 +1,13 @@
-body {
-  background-color: moccasin;
+.room {
+  height: 100vh;
 }
-.myContainer {
-  border: 4px dotted chocolate;
-  width: 50%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  background-color: khaki;
+
+.dark {
+  background-color: black;
+  color: white;
 }
-.myContainer img {
-  width: 500px;
-  height: 280px;
-}
-.doorDiv {
-  display: flex;
-}
-.doorDiv img {
-  /* display: flex; */
-  width: 250px;
-  height: 500px;
-  color: khaki;
+
+.bright {
+  background-color: white;
+  color: black;
 }
