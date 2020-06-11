@@ -19,13 +19,9 @@ function Room() {
 
   const handleTemp = (e) => {
     {
-      {
-        e.target.name === "increase"
-          ? increaseTemp(currentTemp++)
-          : increaseTemp(currentTemp--);
-      }
-
-      console.log(e.target.name);
+      e.target.name === "increase"
+        ? increaseTemp(currentTemp++)
+        : increaseTemp(currentTemp--);
     }
   };
 

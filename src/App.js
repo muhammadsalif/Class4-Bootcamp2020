@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import Room from "./components/Room";
-import bootstrap from "bootstrap/dist/css/bootstrap.css";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <React.Fragment>
